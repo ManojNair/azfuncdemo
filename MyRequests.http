@@ -1,0 +1,10 @@
+﻿POST http://localhost:7071/api/ProcessOrder
+Content-Type: application/json
+
+{
+  "OrderId" : 1001,
+  "Description": "Large Potatoes",
+  "Amount" : 1600
+}
+
+###
